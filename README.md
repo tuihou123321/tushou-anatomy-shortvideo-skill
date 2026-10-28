@@ -2,7 +2,17 @@
 
 把**口播逐字稿**做成解剖科普短视频的可复用 Skill：真源锁结构 → 科技风渲染 → 质检 → **分镜确认（总表 + 真源/科技风对照）** → Seedance 成片 + 口播 + 疏音效。
 
-不依赖 Grok Bot 专用助手；装进本机 Codex 即可调用。仓库不含 API Key、克隆声线或私有账号资源。
+可走 Grok Bot 或 Codex 两条路径；本仓库是 Codex Skill 真源，Grok Bot 助手复用同一流水线与 `assets/coronal/`。仓库不含 API Key、克隆声线或私有账号资源。
+
+## 两种使用方式
+
+### 1. 通过 Grok Bot 使用
+
+导入/使用「徒手整形视频助手」Grok Bot：把口播文案发给助手，按流水线逐步确认（真源→科技风→分镜→Seedance）。适合不想自己装 Skill、要在对话里逐步验收的人。
+
+### 2. 用 Codex 使用
+
+把本仓库装成本机 Codex Skill（见下方「安装」），在 Codex 对话中触发 `$tushou-anatomy-shortvideo`。不依赖 Grok Bot 会话。
 
 ## 安装
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "tushou-anatomy-shortvideo"
+  short_description: "徒手整形解剖短视频：逐字稿→真源→科技风→分镜确认→Seedance成片"
+  default_prompt: "用 $tushou-anatomy-shortvideo，按我贴的逐字稿做解剖科普短视频分镜与成片。"
